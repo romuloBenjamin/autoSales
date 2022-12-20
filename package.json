@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "node-zip": "^1.1.1",
+    "randomstring": "^1.2.3",    
+    "xml2json": "^0.12.0"
+  }
+}
