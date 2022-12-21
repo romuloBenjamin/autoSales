@@ -12,12 +12,11 @@ let date = new Date()
 let locations = { "intra": `\\\\172.16.0.20\\repository\\scanner`, "backup": `\\\\172.16.0.19\\Backup-Canhotos`, "main": "\\\\172.16.0.5\\Organizado" }
 //Get data Year, Month & Day -> auto
 let year = date.getFullYear();
-let month = date.getMonth() + 1;
-//let days = date.getDate().toString().toString().padStart(2, '0')
+let month = (date.getMonth() + 1).toString().padStart(2, '0');
+let days = (date.getDate() - 1).toString().toString().padStart(2, '0')
 //Get data Year, Month & Day -> Manually
 //let year = '2022';
 //let month = '12';
-let days = '14'
 //Set obj Watcher data
 let obj = {};
 obj.listar = []

@@ -11,7 +11,7 @@ let date = new Date()
 //let locations = `\\\\172.16.0.19\\Backup-Canhotos\\${date.getFullYear()}\\${date.getMonth()}\\${date.getDate().toString().toString().padStart(2, '0')}`
 let locations = { "intra": `\\\\172.16.0.20\\repository\\scanner`, "backup": `\\\\172.16.0.19\\Backup-Canhotos`, "main": "\\\\172.16.0.5\\Organizado" }
 //Get data Year, Month & Day
-let pediod = {start: "2022-06-01", end: "2022-07-31"}
+let pediod = {start: "2022-01-01", end: "2022-02-28"}
 //Set obj Watcher data
 let obj = {};
 obj.listar = {}
